@@ -328,6 +328,9 @@
         <ObjectProperty IRI="#OWLObjectProperty_f971cd2e_c623_4f18_85d6_1973bbf691e2"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_fc9f2e08_1efc_4184_ac19_3df32966fdeb"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#OWLDataProperty_351bde6c_a0aa_4110_8d8d_acd566e8b119"/>
     </Declaration>
     <Declaration>
@@ -720,6 +723,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_f971cd2e_c623_4f18_85d6_1973bbf691e2"/>
         <ObjectProperty IRI="#OWLObjectProperty_67767b34_67e0_45bb_bc1e_dcedb41eab74"/>
     </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_fc9f2e08_1efc_4184_ac19_3df32966fdeb"/>
+        <ObjectProperty IRI="#OWLObjectProperty_9e58f2e6_9d6b_4a5c_b9eb_ebabbf893dfe"/>
+    </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_2e83f813_3df0_4adb_a071_88d530368c9a"/>
         <ObjectProperty IRI="#OWLObjectProperty_ac09e307_4550_49fc_942f_e377ab6c6ce6"/>
@@ -767,6 +774,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_f971cd2e_c623_4f18_85d6_1973bbf691e2"/>
         <Class IRI="#OWLClass_6642198f_42b2_4da5_b51b_444f50e60f5b"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_fc9f2e08_1efc_4184_ac19_3df32966fdeb"/>
+        <Class IRI="#OWLClass_4ef9e374_5f5f_4ee6_a6ba_ed0f89f9f0fd"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_1ea29486_4c8f_49c5_9d60_9f88ed2e74e0"/>
         <Class IRI="#OWLClass_32010dff_5ff0_4356_8bf3_afcf19c276cc"/>
@@ -806,6 +817,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_f971cd2e_c623_4f18_85d6_1973bbf691e2"/>
         <Class IRI="#OWLClass_85894424_e42e_45cb_9cce_d4ad6ce65702"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_fc9f2e08_1efc_4184_ac19_3df32966fdeb"/>
+        <Class IRI="#OWLClass_a64ec088_4aa3_4671_bc17_6401c342b2a3"/>
     </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_351bde6c_a0aa_4110_8d8d_acd566e8b119"/>
@@ -899,7 +914,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_235d53a0_8d03_4dcf_920e_be8cdffc0a58</IRI>
-        <Literal xml:lang="en">concretion</Literal>
+        <Literal xml:lang="en">concrete</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1054,7 +1069,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_75e67b1b_33c8_43b4_840f_923183d506b0</IRI>
-        <Literal xml:lang="en">abstraction</Literal>
+        <Literal xml:lang="en">abstract</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1415,6 +1430,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_f971cd2e_c623_4f18_85d6_1973bbf691e2</IRI>
         <Literal xml:lang="en">what-why</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_fc9f2e08_1efc_4184_ac19_3df32966fdeb</IRI>
+        <Literal xml:lang="en">ordinary-special relationship</Literal>
     </AnnotationAssertion>
 </Ontology>
 
