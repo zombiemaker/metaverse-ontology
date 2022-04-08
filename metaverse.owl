@@ -58,6 +58,9 @@
         <Class IRI="#OWLClass_4688bdd3_ca03_4593_956d_b172949deb94"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_46fa28c1_ee8d_44f6_bdcd_d4085e46f9cf"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_47e89c98_3e1a_4af2_8b0d_43f66337f0f0"/>
     </Declaration>
     <Declaration>
@@ -270,6 +273,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_4688bdd3_ca03_4593_956d_b172949deb94"/>
         <Class IRI="#OWLClass_9f1ed7a8_4dad_48dd_a7c9_042474e6257c"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_46fa28c1_ee8d_44f6_bdcd_d4085e46f9cf"/>
+        <Class IRI="#OWLClass_be315fbc_fa32_4da4_94ea_af09c5004e3b"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_47e89c98_3e1a_4af2_8b0d_43f66337f0f0"/>
@@ -563,6 +570,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_4688bdd3_ca03_4593_956d_b172949deb94</IRI>
         <Literal xml:lang="en">energy measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_46fa28c1_ee8d_44f6_bdcd_d4085e46f9cf</IRI>
+        <Literal xml:lang="en">object viewed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
