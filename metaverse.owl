@@ -100,6 +100,9 @@
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_7c6e712c_9b9b_4760_b470_d3e6303ff227"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_828264ef_fb31_46f5_a057_847b8d155782"/>
     </Declaration>
     <Declaration>
@@ -318,6 +321,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
+        <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_7c6e712c_9b9b_4760_b470_d3e6303ff227"/>
         <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
     </SubClassOf>
     <SubClassOf>
@@ -636,6 +643,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7</IRI>
         <Literal xml:lang="en">measurement dimension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_7c6e712c_9b9b_4760_b470_d3e6303ff227</IRI>
+        <Literal xml:lang="en">system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
