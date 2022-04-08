@@ -196,6 +196,9 @@
         <Class IRI="#OWLClass_e5f96001_8031_440c_8c6d_21c9864ddd13"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_e6b2ca5b_ee6d_49d8_a4c6_4e47dc192aae"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_e76181d6_7ce1_4e1d_b9a2_0d605970e98a"/>
     </Declaration>
     <Declaration>
@@ -437,6 +440,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_e5f96001_8031_440c_8c6d_21c9864ddd13"/>
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_e6b2ca5b_ee6d_49d8_a4c6_4e47dc192aae"/>
+        <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_e76181d6_7ce1_4e1d_b9a2_0d605970e98a"/>
@@ -835,6 +842,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_e5f96001_8031_440c_8c6d_21c9864ddd13</IRI>
         <Literal xml:lang="en">temperature dimension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_e6b2ca5b_ee6d_49d8_a4c6_4e47dc192aae</IRI>
+        <Literal xml:lang="en">person</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
