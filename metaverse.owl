@@ -88,6 +88,9 @@
         <Class IRI="#OWLClass_6ed6dd94_5615_4632_aa47_5d14940fb25c"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_6efd46cb_50f7_478c_89fc_3dbd7db065d1"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_708693ac_3340_42fd_a1b5_08048e5fa5df"/>
     </Declaration>
     <Declaration>
@@ -318,6 +321,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_6ed6dd94_5615_4632_aa47_5d14940fb25c"/>
         <Class IRI="#OWLClass_94b04d5d_6402_456a_b01d_350a8e18f670"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_6efd46cb_50f7_478c_89fc_3dbd7db065d1"/>
+        <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_708693ac_3340_42fd_a1b5_08048e5fa5df"/>
@@ -646,6 +653,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_6ed6dd94_5615_4632_aa47_5d14940fb25c</IRI>
         <Literal xml:lang="en">time duration unit of measure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_6efd46cb_50f7_478c_89fc_3dbd7db065d1</IRI>
+        <Literal xml:lang="en">sound</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
