@@ -163,6 +163,9 @@
         <Class IRI="#OWLClass_88a5c419_a074_4e11_8290_82ca447ba38c"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_8a31453a_0560_442e_953d_a616f1f6b40f"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_8ab696c7_c430_4543_8d5c_ce85ef9a0f01"/>
     </Declaration>
     <Declaration>
@@ -179,6 +182,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_93ba6be8_4197_4572_8c01_609fbbc9ea6c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_94a8a910_0116_4b1e_92eb_e5c72fc6e836"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_94b04d5d_6402_456a_b01d_350a8e18f670"/>
@@ -268,6 +274,9 @@
         <Class IRI="#OWLClass_dfa0f7a4_6935_45ea_bae0_94ee5626d3f2"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_dfb9e9fa_6043_490e_bf3b_5c659411ef97"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_e5f96001_8031_440c_8c6d_21c9864ddd13"/>
     </Declaration>
     <Declaration>
@@ -281,6 +290,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_edf62783_3645_42c1_90f5_2110340d26d5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_f0ac2da2_524d_467b_92f2_7b8974971dc6"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_f22e36ed_00f8_441b_988b_ccd9fe345449"/>
@@ -528,6 +540,10 @@
         <Class IRI="#OWLClass_78ad47d5_2952_4bc3_ad16_bf7da86ee098"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_8a31453a_0560_442e_953d_a616f1f6b40f"/>
+        <Class IRI="#OWLClass_326318f8_ca30_48b6_9850_65fc56694abd"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_8ab696c7_c430_4543_8d5c_ce85ef9a0f01"/>
         <Class IRI="#OWLClass_9f1ed7a8_4dad_48dd_a7c9_042474e6257c"/>
     </SubClassOf>
@@ -542,6 +558,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_8e3f4257_211b_418e_af10_e21efff003c5"/>
         <Class IRI="#OWLClass_332f1891_4434_455a_9fee_063a85c3985f"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_94a8a910_0116_4b1e_92eb_e5c72fc6e836"/>
+        <Class IRI="#OWLClass_8a31453a_0560_442e_953d_a616f1f6b40f"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_94b04d5d_6402_456a_b01d_350a8e18f670"/>
@@ -652,6 +672,10 @@
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_dfb9e9fa_6043_490e_bf3b_5c659411ef97"/>
+        <Class IRI="#OWLClass_8a31453a_0560_442e_953d_a616f1f6b40f"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_e5f96001_8031_440c_8c6d_21c9864ddd13"/>
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
     </SubClassOf>
@@ -670,6 +694,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_edf62783_3645_42c1_90f5_2110340d26d5"/>
         <Class IRI="#OWLClass_9f1ed7a8_4dad_48dd_a7c9_042474e6257c"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_f0ac2da2_524d_467b_92f2_7b8974971dc6"/>
+        <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_f22e36ed_00f8_441b_988b_ccd9fe345449"/>
@@ -1117,6 +1145,11 @@
         <Literal xml:lang="en">who</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_8a31453a_0560_442e_953d_a616f1f6b40f</IRI>
+        <Literal xml:lang="en">principal-agent relationship role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OWLClass_8ab696c7_c430_4543_8d5c_ce85ef9a0f01</IRI>
         <Literal>measurement of how much someone deserves to receive</Literal>
@@ -1160,6 +1193,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_93ba6be8_4197_4572_8c01_609fbbc9ea6c</IRI>
         <Literal xml:lang="en">typification scheme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_94a8a910_0116_4b1e_92eb_e5c72fc6e836</IRI>
+        <Literal xml:lang="en">agent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1318,6 +1356,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_dfb9e9fa_6043_490e_bf3b_5c659411ef97</IRI>
+        <Literal xml:lang="en">principal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_e5f96001_8031_440c_8c6d_21c9864ddd13</IRI>
         <Literal xml:lang="en">temperature dimension</Literal>
     </AnnotationAssertion>
@@ -1340,6 +1383,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_edf62783_3645_42c1_90f5_2110340d26d5</IRI>
         <Literal xml:lang="en">temperature measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_f0ac2da2_524d_467b_92f2_7b8974971dc6</IRI>
+        <Literal xml:lang="en">society</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
