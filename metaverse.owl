@@ -37,6 +37,12 @@
         <Class IRI="#OWLClass_1bc8650f_7600_4ace_bb6e_baa6769c4bdd"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_1da93c8e_864a_4133_a48a_f7646dc66ab3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_1e85559e_1ef9_4bfb_96dd_15403efbcb0f"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_2842f1c5_5539_43f6_a1b9_fab825566cb3"/>
     </Declaration>
     <Declaration>
@@ -73,13 +79,22 @@
         <Class IRI="#OWLClass_5bc0b063_7a2e_4242_9c81_0b6fb92db09b"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_5cb7a24c_75a2_4d8b_8855_77182f05af21"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_5e00d44d_95b0_413c_b017_3d630652d049"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_64c1c8be_0c0a_4b3f_b4af_d8228920deea"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_6642198f_42b2_4da5_b51b_444f50e60f5b"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_6ae7883d_5400_4c23_8d6f_ec233f5d7520"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_6af5ba91_27e7_4b70_92b2_c890cb135211"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_6e255cdd_53a1_4632_adae_b242646df1a9"/>
@@ -115,10 +130,19 @@
         <Class IRI="#OWLClass_828264ef_fb31_46f5_a057_847b8d155782"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_85894424_e42e_45cb_9cce_d4ad6ce65702"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_859ec3ab_f468_4be5_810f_2936feadf0d7"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_88a5c419_a074_4e11_8290_82ca447ba38c"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_8ab696c7_c430_4543_8d5c_ce85ef9a0f01"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_8b3e35be_9cf5_415f_80ac_5d93c4339351"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_8c424442_eea5_4e9b_adf6_170fd1be93ea"/>
@@ -263,6 +287,14 @@
         <Class IRI="#OWLClass_0e19d18c_a030_4f25_b9d3_7768019a64fc"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_1da93c8e_864a_4133_a48a_f7646dc66ab3"/>
+        <Class IRI="#OWLClass_2c0f7164_bd62_4523_aef7_ad923440fb22"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_1e85559e_1ef9_4bfb_96dd_15403efbcb0f"/>
+        <Class IRI="#OWLClass_2c0f7164_bd62_4523_aef7_ad923440fb22"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_2842f1c5_5539_43f6_a1b9_fab825566cb3"/>
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
     </SubClassOf>
@@ -303,6 +335,10 @@
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_5cb7a24c_75a2_4d8b_8855_77182f05af21"/>
+        <Class IRI="#OWLClass_2c0f7164_bd62_4523_aef7_ad923440fb22"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_5e00d44d_95b0_413c_b017_3d630652d049"/>
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
     </SubClassOf>
@@ -311,8 +347,16 @@
         <Class IRI="#OWLClass_bf2fd663_1e12_4f3e_9c95_41fc1482a64d"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_6642198f_42b2_4da5_b51b_444f50e60f5b"/>
+        <Class IRI="#OWLClass_2c0f7164_bd62_4523_aef7_ad923440fb22"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_6ae7883d_5400_4c23_8d6f_ec233f5d7520"/>
         <Class IRI="#OWLClass_332f1891_4434_455a_9fee_063a85c3985f"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_6af5ba91_27e7_4b70_92b2_c890cb135211"/>
+        <Class IRI="#OWLClass_2c0f7164_bd62_4523_aef7_ad923440fb22"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_6e255cdd_53a1_4632_adae_b242646df1a9"/>
@@ -359,12 +403,24 @@
         <Class IRI="#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_85894424_e42e_45cb_9cce_d4ad6ce65702"/>
+        <Class IRI="#OWLClass_2c0f7164_bd62_4523_aef7_ad923440fb22"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_859ec3ab_f468_4be5_810f_2936feadf0d7"/>
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_88a5c419_a074_4e11_8290_82ca447ba38c"/>
+        <Class IRI="#OWLClass_2c0f7164_bd62_4523_aef7_ad923440fb22"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_8ab696c7_c430_4543_8d5c_ce85ef9a0f01"/>
         <Class IRI="#OWLClass_9f1ed7a8_4dad_48dd_a7c9_042474e6257c"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_8b3e35be_9cf5_415f_80ac_5d93c4339351"/>
+        <Class IRI="#OWLClass_2c0f7164_bd62_4523_aef7_ad923440fb22"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_8c424442_eea5_4e9b_adf6_170fd1be93ea"/>
@@ -561,6 +617,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_1da93c8e_864a_4133_a48a_f7646dc66ab3</IRI>
+        <Literal xml:lang="en">what-where relationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_1e85559e_1ef9_4bfb_96dd_15403efbcb0f</IRI>
+        <Literal xml:lang="en">cause-effect relationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_2842f1c5_5539_43f6_a1b9_fab825566cb3</IRI>
         <Literal xml:lang="en">power dimension</Literal>
     </AnnotationAssertion>
@@ -626,6 +692,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_5cb7a24c_75a2_4d8b_8855_77182f05af21</IRI>
+        <Literal xml:lang="en">exclusive part-whole relationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_5e00d44d_95b0_413c_b017_3d630652d049</IRI>
         <Literal xml:lang="en">satisfaction dimension</Literal>
     </AnnotationAssertion>
@@ -636,8 +707,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_6642198f_42b2_4da5_b51b_444f50e60f5b</IRI>
+        <Literal xml:lang="en">what-when relationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_6ae7883d_5400_4c23_8d6f_ec233f5d7520</IRI>
         <Literal xml:lang="en">interval measurement scale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_6af5ba91_27e7_4b70_92b2_c890cb135211</IRI>
+        <Literal xml:lang="en">non-exclustive part-whole relationship</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -706,8 +787,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_85894424_e42e_45cb_9cce_d4ad6ce65702</IRI>
+        <Literal xml:lang="en">what-why relationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_859ec3ab_f468_4be5_810f_2936feadf0d7</IRI>
         <Literal xml:lang="en">control dimension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_88a5c419_a074_4e11_8290_82ca447ba38c</IRI>
+        <Literal xml:lang="en">what-who relationship</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -718,6 +809,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_8ab696c7_c430_4543_8d5c_ce85ef9a0f01</IRI>
         <Literal xml:lang="en">equity measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_8b3e35be_9cf5_415f_80ac_5d93c4339351</IRI>
+        <Literal xml:lang="en">what-how relationship</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
