@@ -73,6 +73,9 @@
         <Class IRI="#OWLClass_5e00d44d_95b0_413c_b017_3d630652d049"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_64c1c8be_0c0a_4b3f_b4af_d8228920deea"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_6ae7883d_5400_4c23_8d6f_ec233f5d7520"/>
     </Declaration>
     <Declaration>
@@ -95,6 +98,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_828264ef_fb31_46f5_a057_847b8d155782"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_859ec3ab_f468_4be5_810f_2936feadf0d7"/>
@@ -140,6 +146,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_bb544ec4_7654_4ab2_a000_9c76f882372f"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_be315fbc_fa32_4da4_94ea_af09c5004e3b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_bf2fd663_1e12_4f3e_9c95_41fc1482a64d"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_c8e9eebf_6995_451d_ac30_1d7de6b6bd7a"/>
@@ -244,7 +256,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_3d70f1c1_cbd0_4b6b_a901_f5461a359f09"/>
-        <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
+        <Class IRI="#OWLClass_be315fbc_fa32_4da4_94ea_af09c5004e3b"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_4688bdd3_ca03_4593_956d_b172949deb94"/>
@@ -267,12 +279,16 @@
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_64c1c8be_0c0a_4b3f_b4af_d8228920deea"/>
+        <Class IRI="#OWLClass_bf2fd663_1e12_4f3e_9c95_41fc1482a64d"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_6ae7883d_5400_4c23_8d6f_ec233f5d7520"/>
         <Class IRI="#OWLClass_332f1891_4434_455a_9fee_063a85c3985f"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_6e255cdd_53a1_4632_adae_b242646df1a9"/>
-        <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
+        <Class IRI="#OWLClass_be315fbc_fa32_4da4_94ea_af09c5004e3b"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_6ed6dd94_5615_4632_aa47_5d14940fb25c"/>
@@ -297,6 +313,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
         <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_828264ef_fb31_46f5_a057_847b8d155782"/>
+        <Class IRI="#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_859ec3ab_f468_4be5_810f_2936feadf0d7"/>
@@ -349,6 +369,14 @@
     <SubClassOf>
         <Class IRI="#OWLClass_bb544ec4_7654_4ab2_a000_9c76f882372f"/>
         <Class IRI="#OWLClass_94b04d5d_6402_456a_b01d_350a8e18f670"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_be315fbc_fa32_4da4_94ea_af09c5004e3b"/>
+        <Class IRI="#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_bf2fd663_1e12_4f3e_9c95_41fc1482a64d"/>
+        <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_ca62c54f_93d6_4d97_8260_0f25873f19c5"/>
@@ -542,6 +570,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_64c1c8be_0c0a_4b3f_b4af_d8228920deea</IRI>
+        <Literal xml:lang="en">state of being</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_6ae7883d_5400_4c23_8d6f_ec233f5d7520</IRI>
         <Literal xml:lang="en">interval measurement scale</Literal>
     </AnnotationAssertion>
@@ -589,6 +622,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7</IRI>
         <Literal xml:lang="en">measurement dimension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_828264ef_fb31_46f5_a057_847b8d155782</IRI>
+        <Literal xml:lang="en">process role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -679,6 +717,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_bb544ec4_7654_4ab2_a000_9c76f882372f</IRI>
         <Literal xml:lang="en">value unit of measure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_be315fbc_fa32_4da4_94ea_af09c5004e3b</IRI>
+        <Literal xml:lang="en">view role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_bf2fd663_1e12_4f3e_9c95_41fc1482a64d</IRI>
+        <Literal xml:lang="en">state</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
