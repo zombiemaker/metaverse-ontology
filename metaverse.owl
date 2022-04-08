@@ -100,6 +100,9 @@
         <Class IRI="#OWLClass_77150c67_1bf1_42af_8eb6_d0ff19f6c5d4"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_78adcf36_53b6_4f75_9fef_db0f02ed2b8d"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
     </Declaration>
     <Declaration>
@@ -185,6 +188,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_d67f8322_20a2_4fae_a5f3_f9c635e4eba2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_d78946e6_71d7_4450_9f5c_70b3d20b6671"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_dd6713dd_c17e_453e_b33c_81f02ecb0e68"/>
@@ -330,6 +336,10 @@
         <Class IRI="#OWLClass_dd6713dd_c17e_453e_b33c_81f02ecb0e68"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_78adcf36_53b6_4f75_9fef_db0f02ed2b8d"/>
+        <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
         <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
     </SubClassOf>
@@ -427,6 +437,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_d67f8322_20a2_4fae_a5f3_f9c635e4eba2"/>
+        <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_d78946e6_71d7_4450_9f5c_70b3d20b6671"/>
         <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
     </SubClassOf>
     <SubClassOf>
@@ -660,6 +674,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_78adcf36_53b6_4f75_9fef_db0f02ed2b8d</IRI>
+        <Literal xml:lang="en">word</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7</IRI>
         <Literal xml:lang="en">measurement dimension</Literal>
     </AnnotationAssertion>
@@ -827,6 +846,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_d67f8322_20a2_4fae_a5f3_f9c635e4eba2</IRI>
         <Literal xml:lang="en">capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_d78946e6_71d7_4450_9f5c_70b3d20b6671</IRI>
+        <Literal xml:lang="en">language</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
