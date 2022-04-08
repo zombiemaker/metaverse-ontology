@@ -172,7 +172,13 @@
         <Class IRI="#OWLClass_d5aaeea3_1aca_4555_9c30_f4ba5f8a0009"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_d5d0faef_033e_4f87_9bfb_8512ef8c61bf"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_d666439f_4277_4a0e_bf68_ad81609cda15"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_d67f8322_20a2_4fae_a5f3_f9c635e4eba2"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_dd6713dd_c17e_453e_b33c_81f02ecb0e68"/>
@@ -395,8 +401,16 @@
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_d5d0faef_033e_4f87_9bfb_8512ef8c61bf"/>
+        <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_d666439f_4277_4a0e_bf68_ad81609cda15"/>
         <Class IRI="#OWLClass_332f1891_4434_455a_9fee_063a85c3985f"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_d67f8322_20a2_4fae_a5f3_f9c635e4eba2"/>
+        <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_dd6713dd_c17e_453e_b33c_81f02ecb0e68"/>
@@ -764,9 +778,24 @@
         <Literal xml:lang="en">joy dimension</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_d5d0faef_033e_4f87_9bfb_8512ef8c61bf</IRI>
+        <Literal>the limits of something</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_d5d0faef_033e_4f87_9bfb_8512ef8c61bf</IRI>
+        <Literal xml:lang="en">capacity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_d666439f_4277_4a0e_bf68_ad81609cda15</IRI>
         <Literal xml:lang="en">nominal measurement scale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_d67f8322_20a2_4fae_a5f3_f9c635e4eba2</IRI>
+        <Literal xml:lang="en">capability</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
