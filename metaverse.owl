@@ -19,6 +19,9 @@
         <Class IRI="#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_058216c7_d9a5_43d9_b0e7_934b928695f8"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_0649ae9e_ddfb_4c91_a0e2_036b82025a87"/>
     </Declaration>
     <Declaration>
@@ -38,6 +41,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_181e658c_c1f5_4580_8f68_c20589eb69ad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_1b815ae3_482c_4062_a0fb_4e0c601db641"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_1bc8650f_7600_4ace_bb6e_baa6769c4bdd"/>
@@ -73,6 +79,9 @@
         <Class IRI="#OWLClass_332f1891_4434_455a_9fee_063a85c3985f"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_34fd6f3b_c3d4_43a4_9b07_ff5683ff69a2"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_3d70f1c1_cbd0_4b6b_a901_f5461a359f09"/>
     </Declaration>
     <Declaration>
@@ -101,6 +110,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_5e00d44d_95b0_413c_b017_3d630652d049"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_5ec4dcc2_5fcd_4d54_b88b_340a67aad4af"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_64c1c8be_0c0a_4b3f_b4af_d8228920deea"/>
@@ -151,6 +163,9 @@
         <Class IRI="#OWLClass_7c6e712c_9b9b_4760_b470_d3e6303ff227"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_80901a8f_b00e_447b_9287_651c55e15bfe"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_828264ef_fb31_46f5_a057_847b8d155782"/>
     </Declaration>
     <Declaration>
@@ -179,6 +194,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_8e3f4257_211b_418e_af10_e21efff003c5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_902ff7c6_cba4_4a55_bd11_e01fda30cce4"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_93ba6be8_4197_4572_8c01_609fbbc9ea6c"/>
@@ -298,7 +316,13 @@
         <Class IRI="#OWLClass_f22e36ed_00f8_441b_988b_ccd9fe345449"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_f7d7a81c_9644_43dc_845f_e22e0b0e4563"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_fc38f31c_e055_4b18_82f4_551916245567"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_1ddd6a70_b1cf_49e7_981b_9a7f90a3a774"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_1ea29486_4c8f_49c5_9d60_9f88ed2e74e0"/>
@@ -313,7 +337,13 @@
         <ObjectProperty IRI="#OWLObjectProperty_2e83f813_3df0_4adb_a071_88d530368c9a"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_31d4ac05_518a_4513_8971_7095367d0a31"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_437464f8_c9fa_4d8d_b4cf_f9daaa6a42ed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_57f81f85_11f2_491f_978a_e7e0c7a3a482"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_62a9c00f_a426_42f5_aeaf_2bae4685a8b8"/>
@@ -332,6 +362,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_ac09e307_4550_49fc_942f_e377ab6c6ce6"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_c2b9e608_f011_4646_9243_7fd7c6d09d66"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_d1d1c387_f1f4_4a36_b8af_c5909b7149b0"/>
@@ -360,6 +393,10 @@
         <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_058216c7_d9a5_43d9_b0e7_934b928695f8"/>
+        <Class IRI="#OWLClass_902ff7c6_cba4_4a55_bd11_e01fda30cce4"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_0649ae9e_ddfb_4c91_a0e2_036b82025a87"/>
         <Class IRI="#OWLClass_dd6713dd_c17e_453e_b33c_81f02ecb0e68"/>
     </SubClassOf>
@@ -381,6 +418,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_11b8b3c5_0e8d_4e14_9517_f04a34b94334"/>
+        <Class IRI="#OWLClass_326318f8_ca30_48b6_9850_65fc56694abd"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_1b815ae3_482c_4062_a0fb_4e0c601db641"/>
         <Class IRI="#OWLClass_326318f8_ca30_48b6_9850_65fc56694abd"/>
     </SubClassOf>
     <SubClassOf>
@@ -424,6 +465,10 @@
         <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_34fd6f3b_c3d4_43a4_9b07_ff5683ff69a2"/>
+        <Class IRI="#OWLClass_1b815ae3_482c_4062_a0fb_4e0c601db641"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_3d70f1c1_cbd0_4b6b_a901_f5461a359f09"/>
         <Class IRI="#OWLClass_be315fbc_fa32_4da4_94ea_af09c5004e3b"/>
     </SubClassOf>
@@ -458,6 +503,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_5e00d44d_95b0_413c_b017_3d630652d049"/>
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_5ec4dcc2_5fcd_4d54_b88b_340a67aad4af"/>
+        <Class IRI="#OWLClass_902ff7c6_cba4_4a55_bd11_e01fda30cce4"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_64c1c8be_0c0a_4b3f_b4af_d8228920deea"/>
@@ -524,6 +573,10 @@
         <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_80901a8f_b00e_447b_9287_651c55e15bfe"/>
+        <Class IRI="#OWLClass_1b815ae3_482c_4062_a0fb_4e0c601db641"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_828264ef_fb31_46f5_a057_847b8d155782"/>
         <Class IRI="#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0"/>
     </SubClassOf>
@@ -558,6 +611,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_8e3f4257_211b_418e_af10_e21efff003c5"/>
         <Class IRI="#OWLClass_332f1891_4434_455a_9fee_063a85c3985f"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_902ff7c6_cba4_4a55_bd11_e01fda30cce4"/>
+        <Class IRI="#OWLClass_326318f8_ca30_48b6_9850_65fc56694abd"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_94a8a910_0116_4b1e_92eb_e5c72fc6e836"/>
@@ -703,6 +760,14 @@
         <Class IRI="#OWLClass_f22e36ed_00f8_441b_988b_ccd9fe345449"/>
         <Class IRI="#OWLClass_47e89c98_3e1a_4af2_8b0d_43f66337f0f0"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_f7d7a81c_9644_43dc_845f_e22e0b0e4563"/>
+        <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_1ddd6a70_b1cf_49e7_981b_9a7f90a3a774"/>
+        <ObjectProperty IRI="#OWLObjectProperty_2e83f813_3df0_4adb_a071_88d530368c9a"/>
+    </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_1ea29486_4c8f_49c5_9d60_9f88ed2e74e0"/>
         <ObjectProperty IRI="#OWLObjectProperty_9e58f2e6_9d6b_4a5c_b9eb_ebabbf893dfe"/>
@@ -720,8 +785,16 @@
         <ObjectProperty IRI="#OWLObjectProperty_9e58f2e6_9d6b_4a5c_b9eb_ebabbf893dfe"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_31d4ac05_518a_4513_8971_7095367d0a31"/>
+        <ObjectProperty IRI="#OWLObjectProperty_9e58f2e6_9d6b_4a5c_b9eb_ebabbf893dfe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_437464f8_c9fa_4d8d_b4cf_f9daaa6a42ed"/>
         <ObjectProperty IRI="#OWLObjectProperty_67767b34_67e0_45bb_bc1e_dcedb41eab74"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_57f81f85_11f2_491f_978a_e7e0c7a3a482"/>
+        <ObjectProperty IRI="#OWLObjectProperty_9e58f2e6_9d6b_4a5c_b9eb_ebabbf893dfe"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_62a9c00f_a426_42f5_aeaf_2bae4685a8b8"/>
@@ -741,6 +814,10 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_ac09e307_4550_49fc_942f_e377ab6c6ce6"/>
+        <ObjectProperty IRI="#OWLObjectProperty_9e58f2e6_9d6b_4a5c_b9eb_ebabbf893dfe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_c2b9e608_f011_4646_9243_7fd7c6d09d66"/>
         <ObjectProperty IRI="#OWLObjectProperty_9e58f2e6_9d6b_4a5c_b9eb_ebabbf893dfe"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -886,6 +963,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_058216c7_d9a5_43d9_b0e7_934b928695f8</IRI>
+        <Literal xml:lang="en">milestone objective</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_0649ae9e_ddfb_4c91_a0e2_036b82025a87</IRI>
         <Literal xml:lang="en">beauty dimension</Literal>
     </AnnotationAssertion>
@@ -923,6 +1005,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_181e658c_c1f5_4580_8f68_c20589eb69ad</IRI>
         <Literal xml:lang="en">collection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_1b815ae3_482c_4062_a0fb_4e0c601db641</IRI>
+        <Literal xml:lang="en">means-end relationship role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -980,6 +1067,11 @@
         <Literal xml:lang="en">measurement scale</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_34fd6f3b_c3d4_43a4_9b07_ff5683ff69a2</IRI>
+        <Literal xml:lang="en">end</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OWLClass_3d70f1c1_cbd0_4b6b_a901_f5461a359f09</IRI>
         <Literal>perspective of the viewer viewing an object</Literal>
@@ -1033,6 +1125,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_5e00d44d_95b0_413c_b017_3d630652d049</IRI>
         <Literal xml:lang="en">satisfaction dimension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_5ec4dcc2_5fcd_4d54_b88b_340a67aad4af</IRI>
+        <Literal xml:lang="en">goal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1126,6 +1223,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_80901a8f_b00e_447b_9287_651c55e15bfe</IRI>
+        <Literal xml:lang="en">means</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_828264ef_fb31_46f5_a057_847b8d155782</IRI>
         <Literal xml:lang="en">process role</Literal>
     </AnnotationAssertion>
@@ -1188,6 +1290,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_8e3f4257_211b_418e_af10_e21efff003c5</IRI>
         <Literal xml:lang="en">ratio measurement scale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_902ff7c6_cba4_4a55_bd11_e01fda30cce4</IRI>
+        <Literal xml:lang="en">milestone objective-goal relationship role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1395,6 +1502,16 @@
         <Literal xml:lang="en">point in time</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_f7d7a81c_9644_43dc_845f_e22e0b0e4563</IRI>
+        <Literal>an implementation of a capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_f7d7a81c_9644_43dc_845f_e22e0b0e4563</IRI>
+        <Literal xml:lang="en">capability implementation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_fc38f31c_e055_4b18_82f4_551916245567</IRI>
         <Literal xml:lang="en">categorization scheme</Literal>
@@ -1413,6 +1530,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLDataProperty_b32c4ea6_ee54_4928_b55e_7c6c4179228f</IRI>
         <Literal xml:lang="en">measurement value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_1ddd6a70_b1cf_49e7_981b_9a7f90a3a774</IRI>
+        <Literal xml:lang="en">means-end relationship</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1436,8 +1558,23 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_31d4ac05_518a_4513_8971_7095367d0a31</IRI>
+        <Literal xml:lang="en">capability-capability relationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_437464f8_c9fa_4d8d_b4cf_f9daaa6a42ed</IRI>
         <Literal xml:lang="en">what-how</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLObjectProperty_57f81f85_11f2_491f_978a_e7e0c7a3a482</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_57f81f85_11f2_491f_978a_e7e0c7a3a482</IRI>
+        <Literal xml:lang="en">substance-form relationship</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1468,6 +1605,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_ac09e307_4550_49fc_942f_e377ab6c6ce6</IRI>
         <Literal xml:lang="en">effect-cause relationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_c2b9e608_f011_4646_9243_7fd7c6d09d66</IRI>
+        <Literal xml:lang="en">milestone-goal relationship</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
