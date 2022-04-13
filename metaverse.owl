@@ -34,6 +34,9 @@
         <Class IRI="#OWLClass_0c19b7f4_b8e2_47d4_8e52_25c2895cee14"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_0c7917e6_7b9a_4b06_b80f_45c561c49547"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_0d599c6f_cb09_4a04_b13b_ccee3bd1e3e3"/>
     </Declaration>
     <Declaration>
@@ -65,6 +68,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_2842f1c5_5539_43f6_a1b9_fab825566cb3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_2893c68c_a708_41c1_936f_a24a45e9d982"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_2bc61441_c466_49db_bf71_1eccfa5ae255"/>
@@ -236,6 +242,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_a0f695be_26ef_4e2c_b56a_3bfe9bb3684d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_a5d20a4d_4162_4c63_82d9_1445cad47371"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_a64ec088_4aa3_4671_bc17_6401c342b2a3"/>
@@ -434,6 +443,10 @@
         <Class IRI="#OWLClass_78ad47d5_2952_4bc3_ad16_bf7da86ee098"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_0c7917e6_7b9a_4b06_b80f_45c561c49547"/>
+        <Class IRI="#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_0d599c6f_cb09_4a04_b13b_ccee3bd1e3e3"/>
         <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
     </SubClassOf>
@@ -467,11 +480,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_26681424_6ba6_4618_964f_58fb3ca30c71"/>
-        <Class IRI="#OWLClass_728810d4_1107_4bb0_a056_9db36b17f3f6"/>
+        <Class IRI="#OWLClass_326318f8_ca30_48b6_9850_65fc56694abd"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_2842f1c5_5539_43f6_a1b9_fab825566cb3"/>
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_2893c68c_a708_41c1_936f_a24a45e9d982"/>
+        <Class IRI="#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_2bc61441_c466_49db_bf71_1eccfa5ae255"/>
@@ -583,7 +600,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_728810d4_1107_4bb0_a056_9db36b17f3f6"/>
-        <Class IRI="#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0"/>
+        <Class IRI="#OWLClass_0c7917e6_7b9a_4b06_b80f_45c561c49547"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_72de8cf5_d976_43d3_bab2_7c2932f7849a"/>
@@ -619,7 +636,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_828264ef_fb31_46f5_a057_847b8d155782"/>
-        <Class IRI="#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0"/>
+        <Class IRI="#OWLClass_0c7917e6_7b9a_4b06_b80f_45c561c49547"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_85894424_e42e_45cb_9cce_d4ad6ce65702"/>
@@ -684,6 +701,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_a0f695be_26ef_4e2c_b56a_3bfe9bb3684d"/>
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_a5d20a4d_4162_4c63_82d9_1445cad47371"/>
+        <Class IRI="#OWLClass_0c7917e6_7b9a_4b06_b80f_45c561c49547"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_a64ec088_4aa3_4671_bc17_6401c342b2a3"/>
@@ -1036,6 +1057,16 @@
         <Literal xml:lang="en">where</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_0c7917e6_7b9a_4b06_b80f_45c561c49547</IRI>
+        <Literal>responsibility role related to an object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_0c7917e6_7b9a_4b06_b80f_45c561c49547</IRI>
+        <Literal xml:lang="en">object responsibility role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_0d599c6f_cb09_4a04_b13b_ccee3bd1e3e3</IRI>
         <Literal xml:lang="en">space</Literal>
@@ -1086,14 +1117,29 @@
         <Literal xml:lang="en">concrete</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_26681424_6ba6_4618_964f_58fb3ca30c71</IRI>
+        <Literal>inter-capability relationship role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_26681424_6ba6_4618_964f_58fb3ca30c71</IRI>
-        <Literal xml:lang="en">capability-capability role</Literal>
+        <Literal xml:lang="en">capability-capability relationship role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_2842f1c5_5539_43f6_a1b9_fab825566cb3</IRI>
         <Literal xml:lang="en">power dimension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_2893c68c_a708_41c1_936f_a24a45e9d982</IRI>
+        <Literal>role of an object expressed in terms of its function to a specific group of other objects</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_2893c68c_a708_41c1_936f_a24a45e9d982</IRI>
+        <Literal xml:lang="en">object functional role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1258,7 +1304,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_728810d4_1107_4bb0_a056_9db36b17f3f6</IRI>
-        <Literal xml:lang="en">capability role</Literal>
+        <Literal xml:lang="en">capability responsibility role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1303,7 +1349,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_828264ef_fb31_46f5_a057_847b8d155782</IRI>
-        <Literal xml:lang="en">process role</Literal>
+        <Literal xml:lang="en">process responsibility role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1409,6 +1455,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_a0f695be_26ef_4e2c_b56a_3bfe9bb3684d</IRI>
         <Literal xml:lang="en">space dimension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_a5d20a4d_4162_4c63_82d9_1445cad47371</IRI>
+        <Literal xml:lang="en">work unit responsibility role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
