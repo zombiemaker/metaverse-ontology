@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl">
+    <Prefix name="" IRI="https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -47,6 +48,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_181e658c_c1f5_4580_8f68_c20589eb69ad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_1afde07e_dcaa_4d39_a0b0_584b0f409160"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_1b815ae3_482c_4062_a0fb_4e0c601db641"/>
@@ -457,6 +461,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_11b8b3c5_0e8d_4e14_9517_f04a34b94334"/>
         <Class IRI="#OWLClass_326318f8_ca30_48b6_9850_65fc56694abd"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_1afde07e_dcaa_4d39_a0b0_584b0f409160"/>
+        <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_1b815ae3_482c_4062_a0fb_4e0c601db641"/>
@@ -1059,7 +1067,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OWLClass_0c7917e6_7b9a_4b06_b80f_45c561c49547</IRI>
-        <Literal>responsibility role related to an object</Literal>
+        <Literal>role expressing a reponsibility related to an object</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1090,6 +1098,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_181e658c_c1f5_4580_8f68_c20589eb69ad</IRI>
         <Literal xml:lang="en">collection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_1afde07e_dcaa_4d39_a0b0_584b0f409160</IRI>
+        <Literal>an occurrence of something at a point-in-time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_1afde07e_dcaa_4d39_a0b0_584b0f409160</IRI>
+        <Literal xml:lang="en">event</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1629,7 +1647,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_f22e36ed_00f8_441b_988b_ccd9fe345449</IRI>
-        <Literal xml:lang="en">point in time</Literal>
+        <Literal xml:lang="en">point-in-time</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
