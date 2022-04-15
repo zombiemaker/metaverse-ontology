@@ -170,6 +170,9 @@
         <Class IRI="#OWLClass_72de8cf5_d976_43d3_bab2_7c2932f7849a"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_747e42a7_831f_428a_b6a4_07abfabb38e5"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_75e67b1b_33c8_43b4_840f_923183d506b0"/>
     </Declaration>
     <Declaration>
@@ -619,6 +622,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_72de8cf5_d976_43d3_bab2_7c2932f7849a"/>
         <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_747e42a7_831f_428a_b6a4_07abfabb38e5"/>
+        <Class IRI="#OWLClass_2893c68c_a708_41c1_936f_a24a45e9d982"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_75e67b1b_33c8_43b4_840f_923183d506b0"/>
@@ -1342,6 +1349,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_72de8cf5_d976_43d3_bab2_7c2932f7849a</IRI>
         <Literal xml:lang="en">interaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_747e42a7_831f_428a_b6a4_07abfabb38e5</IRI>
+        <Literal>a functional role as a tool for performing an operation on something</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_747e42a7_831f_428a_b6a4_07abfabb38e5</IRI>
+        <Literal xml:lang="en">instrument</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
