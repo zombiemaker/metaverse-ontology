@@ -188,6 +188,9 @@
         <Class IRI="#OWLClass_7c6e712c_9b9b_4760_b470_d3e6303ff227"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_7d094016_f4ec_4bbe_bcdd_ee6bd5e3e35f"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_80901a8f_b00e_447b_9287_651c55e15bfe"/>
     </Declaration>
     <Declaration>
@@ -354,6 +357,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_fc38f31c_e055_4b18_82f4_551916245567"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_fd8ce853_068f_40a9_8c50_4af51f5799a2"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_1ddd6a70_b1cf_49e7_981b_9a7f90a3a774"/>
@@ -639,6 +645,10 @@
         <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_7d094016_f4ec_4bbe_bcdd_ee6bd5e3e35f"/>
+        <Class IRI="#OWLClass_fd8ce853_068f_40a9_8c50_4af51f5799a2"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_80901a8f_b00e_447b_9287_651c55e15bfe"/>
         <Class IRI="#OWLClass_1b815ae3_482c_4062_a0fb_4e0c601db641"/>
     </SubClassOf>
@@ -840,6 +850,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_fc1ccdb0_3020_4f35_b14e_718651e15bcb"/>
+        <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_fd8ce853_068f_40a9_8c50_4af51f5799a2"/>
         <Class IRI="#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213"/>
     </SubClassOf>
     <SubObjectPropertyOf>
@@ -1361,6 +1375,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_7d094016_f4ec_4bbe_bcdd_ee6bd5e3e35f</IRI>
+        <Literal xml:lang="en">name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_80901a8f_b00e_447b_9287_651c55e15bfe</IRI>
         <Literal xml:lang="en">means</Literal>
     </AnnotationAssertion>
@@ -1673,6 +1692,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_fc38f31c_e055_4b18_82f4_551916245567</IRI>
         <Literal xml:lang="en">categorization scheme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_fd8ce853_068f_40a9_8c50_4af51f5799a2</IRI>
+        <Literal>something that identifies or distinguishes something else from everything else</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_fd8ce853_068f_40a9_8c50_4af51f5799a2</IRI>
+        <Literal xml:lang="en">identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
