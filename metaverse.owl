@@ -245,6 +245,9 @@
         <Class IRI="#OWLClass_9901eae8_0219_4891_b47a_208badb590fa"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_9b84d2c3_ef7e_40d2_aa31_d26f31b440f4"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_9c491b47_8f5d_4e47_9067_edd4c876109d"/>
     </Declaration>
     <Declaration>
@@ -252,6 +255,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_a0f695be_26ef_4e2c_b56a_3bfe9bb3684d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_a5a1ea81_2db0_4e4f_b7f0_4254cd19b3fa"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_a5d20a4d_4162_4c63_82d9_1445cad47371"/>
@@ -330,6 +336,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_dfb9e9fa_6043_490e_bf3b_5c659411ef97"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_e43bdd0a_c503_4263_b692_34f0110e198f"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_e5f96001_8031_440c_8c6d_21c9864ddd13"/>
@@ -716,6 +725,10 @@
         <Class IRI="#OWLClass_ba69d776_2722_443e_ac55_b94b26374e13"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_9b84d2c3_ef7e_40d2_aa31_d26f31b440f4"/>
+        <Class IRI="#OWLClass_47e89c98_3e1a_4af2_8b0d_43f66337f0f0"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_9c491b47_8f5d_4e47_9067_edd4c876109d"/>
         <Class IRI="#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0"/>
     </SubClassOf>
@@ -726,6 +739,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_a0f695be_26ef_4e2c_b56a_3bfe9bb3684d"/>
         <Class IRI="#OWLClass_7b424e19_1ada_4f7e_bc92_37dbd87612d7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_a5a1ea81_2db0_4e4f_b7f0_4254cd19b3fa"/>
+        <Class IRI="#OWLClass_9b84d2c3_ef7e_40d2_aa31_d26f31b440f4"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_a5d20a4d_4162_4c63_82d9_1445cad47371"/>
@@ -822,6 +839,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_dfb9e9fa_6043_490e_bf3b_5c659411ef97"/>
         <Class IRI="#OWLClass_8a31453a_0560_442e_953d_a616f1f6b40f"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_e43bdd0a_c503_4263_b692_34f0110e198f"/>
+        <Class IRI="#OWLClass_9b84d2c3_ef7e_40d2_aa31_d26f31b440f4"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_e5f96001_8031_440c_8c6d_21c9864ddd13"/>
@@ -1050,6 +1071,11 @@
         <DataProperty IRI="#OWLDataProperty_b32c4ea6_ee54_4928_b55e_7c6c4179228f"/>
         <Datatype abbreviatedIRI="xsd:long"/>
     </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_03dfcd29_3e4a_472d_893a_36e6d0a4e71d</IRI>
+        <Literal xml:lang="en">a unit of time</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_03dfcd29_3e4a_472d_893a_36e6d0a4e71d</IRI>
@@ -1497,6 +1523,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_9b84d2c3_ef7e_40d2_aa31_d26f31b440f4</IRI>
+        <Literal xml:lang="en">timeline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_9c491b47_8f5d_4e47_9067_edd4c876109d</IRI>
         <Literal xml:lang="en">interaction role</Literal>
     </AnnotationAssertion>
@@ -1509,6 +1540,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_a0f695be_26ef_4e2c_b56a_3bfe9bb3684d</IRI>
         <Literal xml:lang="en">space dimension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_a5a1ea81_2db0_4e4f_b7f0_4254cd19b3fa</IRI>
+        <Literal xml:lang="en">absolute timeline</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1651,6 +1687,16 @@
         <Literal xml:lang="en">principal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_e43bdd0a_c503_4263_b692_34f0110e198f</IRI>
+        <Literal xml:lang="en">a timeline where the starting point-in-time is relative to either another relative timeline or an absolute timeline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_e43bdd0a_c503_4263_b692_34f0110e198f</IRI>
+        <Literal xml:lang="en">relative timeline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_e5f96001_8031_440c_8c6d_21c9864ddd13</IRI>
         <Literal xml:lang="en">temperature dimension</Literal>
@@ -1666,6 +1712,11 @@
         <Literal xml:lang="en">being</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_e8aa1869_f47a_4752_8633_7557c184019d</IRI>
+        <Literal xml:lang="en">a specific period of time with a specific start and end points in time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_e8aa1869_f47a_4752_8633_7557c184019d</IRI>
         <Literal xml:lang="en">time interval</Literal>
@@ -1679,6 +1730,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_f0ac2da2_524d_467b_92f2_7b8974971dc6</IRI>
         <Literal xml:lang="en">society</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_f22e36ed_00f8_441b_988b_ccd9fe345449</IRI>
+        <Literal xml:lang="en">a specifice point in time of a time line</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
